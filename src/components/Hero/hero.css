@@ -1,0 +1,62 @@
+.heroBg {
+  position: relative;
+  background: url("../../images/bg-intro-mobile.svg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.heroBg > img {
+  max-width: 350px;
+  position: absolute;
+  top: -75px;
+}
+
+.heroContent {
+  width: 90%;
+  margin: 0 auto 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heroContent > p {
+  color: hsl(233, 8%, 62%);
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .heroWrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 50px 0 0;
+  }
+  .heroContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 20px;
+    height: 520px;
+    text-align: left;
+    width: 40%;
+  }
+  .heroBg {
+    top: -40px;
+    right: 0;
+    background: url("../../images/bg-intro-desktop.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 520px;
+    width: 60%;
+  }
+  .heroBg > img {
+    top: 150px;
+  }
+}

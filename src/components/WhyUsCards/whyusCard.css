@@ -1,0 +1,19 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  margin: 35px auto;
+}
+.card > img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.card > p {
+  color: hsl(233, 8%, 62%);
+}
