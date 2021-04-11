@@ -1,0 +1,19 @@
+.mainArticleWrapper {
+  background-color: hsl(0, 0%, 98%);
+}
+.articleWrapper {
+  padding: 30px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.latestCardsWrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .latestCardsWrapper {
+    width: 95%;
+  }
+}
