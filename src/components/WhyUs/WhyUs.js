@@ -10,8 +10,10 @@ function WhyUs() {
     <div className="mainWrapper">
       <div className="d-flex flex-column justify-content-center text-center justify-content-md-start text-md-left  whyWrapper">
         <div className="whyContent">
-          <h1>Why choose Easybank?</h1>
-          <p>
+          <h1 className="text-center text-md-left p-md-3 px-md-5">
+            Why choose Easybank?
+          </h1>
+          <p className="text-center text-md-left  px-md-5">
             We leverage Open Banking to turn your bank account into your
             finatial hub. Control your finaces like never before.
           </p>

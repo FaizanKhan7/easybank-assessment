@@ -5,10 +5,12 @@ function ArticleCard({ cardPhoto, photoBy, cardTitle, cardContent }) {
   return (
     <div>
       <Card
+        className="my-card"
         style={{
           width: "16rem",
           boxShadow: "0 8px 12px rgba(0,0,0,0.03)",
           margin: "35px auto",
+          padding: "0",
         }}
       >
         <Card.Img
