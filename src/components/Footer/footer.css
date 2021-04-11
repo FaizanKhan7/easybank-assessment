@@ -2,6 +2,10 @@ footer {
   background-color: hsl(233, 26%, 24%);
   color: #fff;
 }
+.footerWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 .logoLinks > img {
   display: block;
@@ -10,7 +14,7 @@ footer {
   padding-top: 30px;
 }
 .socialLinks {
-  max-width: 300px;
+  max-width: 250px;
   width: 90%;
   margin: 10px auto 0;
   padding-bottom: 30px;
@@ -34,8 +38,15 @@ footer {
 .pageLinks > li:hover {
   color: hsl(136, 65%, 51%);
 }
-footer > p {
+.copyRight > p {
   margin: 0;
   text-align: center;
   padding: 10px 0 35px;
+}
+
+@media (min-width: 768px) {
+  .footerWrapper {
+    width: 90%;
+    height: 250px;
+  }
 }
