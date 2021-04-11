@@ -1,0 +1,33 @@
+.whyWrapper {
+  background-color: hsl(220, 16%, 96%);
+  padding: 30px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.whyContent {
+  width: 90%;
+  margin: 0 auto;
+}
+.whyContent > p {
+  margin: 20px 0;
+  color: hsl(233, 8%, 62%);
+}
+
+@media (min-width: 768px) {
+  .whyWrapper {
+    margin-top: -40px;
+    padding-top: 70px;
+  }
+  .whyContent > p {
+    width: 500px;
+  }
+  .WhyusWrapper {
+    display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+  .whyContent {
+    width: 92%;
+  }
+}

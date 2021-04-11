@@ -1,11 +1,12 @@
 import Logo from "../../images/logo.svg";
 import Hamburger from "../../images/icon-hamburger.svg";
 
-import { Button, Nav, Navbar } from "react-bootstrap";
+import Btn from "../Button/Btn";
+import { Nav, Navbar } from "react-bootstrap";
 import "./header.css";
 function Header() {
   return (
-    <Navbar bg="white" expand="lg" className="navbarWrapper">
+    <Navbar bg="white" expand="lg" className="navbarWrapper" fixed="top">
       <Navbar.Brand href="#">
         <img src={Logo} alt="logo" />
       </Navbar.Brand>
@@ -35,9 +36,7 @@ function Header() {
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
-      <Button variant="primary" className="btn">
-        Request Invite
-      </Button>
+      <Btn />
     </Navbar>
   );
 }
