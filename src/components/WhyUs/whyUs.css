@@ -1,5 +1,7 @@
-.whyWrapper {
+.mainWrapper {
   background-color: hsl(220, 16%, 96%);
+}
+.whyWrapper {
   padding: 30px 0;
   max-width: 1200px;
   margin: 0 auto;
@@ -20,9 +22,6 @@
   }
   .whyContent > p {
     width: 500px;
-  }
-  .WhyusWrapper {
-    display: flex;
   }
 }
 

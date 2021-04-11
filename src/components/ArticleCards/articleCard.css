@@ -1,0 +1,4 @@
+.card-title:hover {
+  cursor: pointer;
+  color: hsl(136, 65%, 51%);
+}
