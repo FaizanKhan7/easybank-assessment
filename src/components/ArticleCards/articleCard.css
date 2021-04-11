@@ -1,3 +1,11 @@
+.my-card {
+  transition: all 0.2s ease-in-out;
+}
+
+.my-card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
 .card-title:hover {
   cursor: pointer;
   color: hsl(136, 65%, 51%);
