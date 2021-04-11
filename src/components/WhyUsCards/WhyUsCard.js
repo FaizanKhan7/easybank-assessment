@@ -1,15 +1,11 @@
 import "./whyusCard.css";
-import Online from "../../images/icon-online.svg";
 
-function WhyUsCard() {
+function WhyUsCard({ whyCardImg, whyHeading, whyContent }) {
   return (
-    <div className="card">
-      <img src={Online} alt="" />
-      <h3>Online Banking</h3>
-      <p>
-        Our modern and Mobile applications allow you to keep track of your
-        finances wherever you are in the world.
-      </p>
+    <div className="d-flex flex-column justify-content-center  align-items-center text-center text-md-left justify-content-md-start align-items-md-start   card">
+      <img src={whyCardImg} alt="" />
+      <h3>{whyHeading}</h3>
+      <p>{whyContent} </p>
     </div>
   );
 }

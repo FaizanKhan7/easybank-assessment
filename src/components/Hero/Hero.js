@@ -1,14 +1,13 @@
 import "./hero.css";
 import MobileMockups from "../../images/image-mockups.png";
 import Btn from "../Button/Btn";
-import { Media } from "react-bootstrap";
 function Hero() {
   return (
-    <div className="heroWrapper">
-      <div className="heroBg">
+    <div className="d-md-flex flex-row-reverse justify-content-center heroWrapper">
+      <div className="d-flex justify-content-center heroBg">
         <img src={MobileMockups} alt="" />
       </div>
-      <div className="heroContent">
+      <div className="d-flex flex-column justify-content-center align-items-center  align-items-md-start heroContent">
         <h2>Next generation digital banking</h2>
         <p>
           Take your finalcial life online. Your Easybank account will be a

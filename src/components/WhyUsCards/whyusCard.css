@@ -1,9 +1,4 @@
 .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   background-color: transparent;
   border: none;
   margin: 35px auto;
@@ -16,4 +11,14 @@
 
 .card > p {
   color: hsl(233, 8%, 62%);
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: fit-content;
+    padding: 0 5px;
+  }
+  .card > P {
+    width: 230px;
+  }
 }
